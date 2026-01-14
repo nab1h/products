@@ -1,7 +1,7 @@
 import ProductCard from "./components/ProductCard/ProductCard";
 import {productList} from "./data";
 function App() {
-  const renderProductList = productList.map(product=><ProductCard key={product.id} />)
+  const renderProductList = productList.map(product=><ProductCard key={product.id} product={product}/>)
   return (
     <>
       <div className="container mx-auto px-15">
