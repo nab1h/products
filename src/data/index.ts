@@ -29,16 +29,7 @@ export const productList: IProduct[] = [
       "https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
     price: "350",
     colors: [
-      "#A31ACB",
-      "#FF6E31",
-      "#3C2A21",
-      "#CB1C8D",
-      "#645CBB",
-      "#FF0032",
-      "#820000",
-      "#13005A",
-      "#1F8A70",
-      "#84D2C5",
+      "#A31ACB"
     ],
     category: {
       name: "Nike",
@@ -190,4 +181,19 @@ export const formInputsList: IFormInput[] = [
     label: "Product Price",
     type: "text",
   },
+];
+
+
+export const colors: string[] = [
+  "#a855f7",
+  "#2563eb",
+  "#84D2C5",
+  "#13005A",
+  "#A31ACB",
+  "#FF6E31",
+  "#3C2A21",
+  "#6C4AB6",
+  "#CB1C8D",
+  "#000000",
+  "#645CBB",
 ];
